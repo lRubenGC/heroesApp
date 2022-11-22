@@ -17,6 +17,7 @@ import { MatListModule } from '@angular/material/list';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
 import { FormsModule } from '@angular/forms';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ListadoComponent,
     HeroeTarjetaComponent,
-    ImagenPipe
+    ImagenPipe,
+    ConfirmarComponent
   ],
   imports: [
     CommonModule,
